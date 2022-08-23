@@ -97,7 +97,6 @@ body {
   font-size: 1em;
   text-align: left;
   color: #152a3e;
-  background-color: #cac691;
   width: 100%;
 }
 
@@ -192,6 +191,10 @@ footer {
   flex-flow: row wrap;
 }
 
+#work, #about {
+  background-color: #cac691;
+}
+
 #work p,
 #about p {
   width: 100%;
@@ -224,9 +227,10 @@ footer {
 /* Header styles */
 
 header {
-  padding: 30px 0 60px;
+  padding: 30px 0 60px 0;
   background: #152A3E;
   color: #eeefda;
+  width: 100%;
 }
 
 header h2 {
@@ -244,22 +248,25 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
   padding-bottom: 35px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+
 }
 
 nav ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
+  display: inline-block;
   font-size: 1em;
   font-weight: bold;
-  margin-bottom: 20px;
   text-transform: uppercase;
-  padding: 10px;
 }
 
 nav a {
@@ -273,7 +280,7 @@ nav a:hover {
 nav span {
   background-color: #cac691;
   color: #152A3E;
-  padding: 8px;
+  padding: 8px 5px;
   border-radius: 40px;
 }
 
@@ -292,10 +299,11 @@ footer {
   padding: 80px 0;
   background-color: #152A3E;
   color: #eeefda;
+  width: 100%;
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 85%;
   margin: 50px 0;
 }
 
@@ -335,7 +343,10 @@ footer .social-icons li i {
 nav {
   font-size: 1em;
   font-weight: 800;
-  padding-right: 25px;
+}
+
+nav li {
+  justify-content: space-between;
 }
 
 /* Portfolio */
@@ -385,12 +396,11 @@ nav {
 .project-piece figure {
   width: 100%;
   filter: drop-shadow(1px 2px 6px lightgrey);
-  padding: 25px 45px 25px 25px;
+  padding: 25px 0;
 }
 
 #skills {
   background-color: #eeefda;
-  padding: 30px;
 }
 
 #skills h2 {
@@ -404,8 +414,8 @@ nav {
 .language-wrapper p,
 .tools-wrapper p {
   background-color: #cac691;
-  padding: 15px 25px;
-  margin: 20px 20px;
+  padding: 15px 0;
+  margin: 20px 0;
 }
 
 .tool {
@@ -489,6 +499,7 @@ footer .social-icons li {
     justify-content: space-around;
     padding-top: 60px;
     padding-bottom: 80px;
+    width: 100%;
   }
 
   header figure {
@@ -501,17 +512,20 @@ footer .social-icons li {
     flex-flow: row wrap;
   }
 
-  nav {
-    width: 20%;
-    margin: 0 0 80px;
-  }
-
-  header nav ul {
-    justify-content: space-between;
-  }
-
   header nav ul li {
     font-size: 1.2em;
+  }
+
+  header nav{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    
+  }
+  nav ul{
+    display:flex;
+    justify-content:space-between;
+    width:80%;
   }
 
   .home-title {
