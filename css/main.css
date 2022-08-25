@@ -122,15 +122,14 @@ h2 {
   font-size: 1.5em;
   line-height: 1.5;
   width: 100%;
-  margin-top: 60px;
   font-family: 'Lexend Tera', sans-serif;
+  padding-top: 40px;
 }
 
 h3 {
   font-size: 1.25em;
   width: 100%;
   line-height: 1.5;
-  margin-bottom: 20px;
   font-family: 'Lexend Tera', sans-serif;
 }
 
@@ -176,7 +175,7 @@ figure {
 }
 
 .about img {
-  margin: 0 40px;
+  margin: 20px 40px;
   justify-content: space-around;
 }
 
@@ -292,11 +291,10 @@ nav span:hover {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   flex-flow: row wrap;
   font-size: 1.25em;
-  padding: 80px 0;
   background-color: #152A3E;
   color: #eeefda;
   width: 100%;
@@ -307,8 +305,13 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-footer .contact {
+footer .contact-wrapper {
   margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+address {
+  font-size: 1em;
 }
 
 .copyright {
@@ -321,20 +324,24 @@ footer .social-icons {
   list-style-type: none;
   font-size: 2em;
   justify-content: space-around;
-  padding-left: 0;
 }
 
 footer .social-icons li i {
-  font-size: 1.875em;
   color: #cac691;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-header {
   margin-bottom: 60px;
+  text-align: center;
 }
 
-.contact-info {
+.contact-info .follow-section {
   margin-bottom: 60px;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -347,6 +354,8 @@ nav {
 
 nav li {
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 /* Portfolio */
@@ -390,7 +399,6 @@ nav li {
 
 .project-piece h3 {
   font-weight: bold;
-  padding: 1.5em 0;
 }
 
 .project-piece figure {
@@ -408,7 +416,7 @@ nav li {
 }
 
 #skills .content-wrapper {
-  margin: 0;
+  margin: 20px;
 }
 
 .language-wrapper p,
@@ -435,7 +443,7 @@ nav li {
 footer .contact-wrapper {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -450,12 +458,12 @@ footer h3 {
 footer .follow-section {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 footer ul {
@@ -478,7 +486,6 @@ footer .social-icons li {
   /* General styles */
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
   }
 
   h1 {
@@ -487,7 +494,6 @@ footer .social-icons li {
 
   h2 {
     font-size: 1.5em;
-    margin-top: 80px;
   }
 
   h3 {
@@ -524,7 +530,7 @@ footer .social-icons li {
   }
   nav ul{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     width:80%;
   }
 
@@ -539,24 +545,19 @@ footer .social-icons li {
   }
 
   /* Footer */
-  footer {
-    padding: 140px 0;
-    padding-bottom: 80px;
-  }
 
   footer .content-wrapper {
-    width: 65%;
-    margin: 100px 0;
+    width: 85%;
   }
 
   .footer-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-flow: row wrap;
   }
 
-  footer .contact {
-    margin-bottom: 0;
+  footer .contact-wrapper {
+    justify-content: space-around;
   }
 
   .copyright {
@@ -570,9 +571,6 @@ footer .social-icons li {
   footer ul {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
   }
 
   footer .social-icons li i {
@@ -717,23 +715,6 @@ footer .social-icons li {
     max-width: 90%;
   }
 
-  #work {
-    padding-top: 80px;
-  }
-
-  #skills {
-    padding: 120px 0;
-  }
-
-  #about {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-
-  footer {
-    padding: 140px 0;
-  }
-
   .project-header {
     margin: 0 0 60px;
   }
@@ -772,14 +753,6 @@ footer .social-icons li {
 
   .about-info {
     width: 58%;
-  }
-
-  .contact-info {
-    margin: 80px 0;
-  }
-
-  .contact-title {
-    margin: 0 0 30px;
   }
 
   .skill,
