@@ -212,6 +212,10 @@ footer {
   margin-bottom: 20px;
 }
 
+.about-header h2 {
+  font-size: 1.75em;
+}
+
 .about-info h2 {
   margin-bottom: 40px;
 }
@@ -251,24 +255,25 @@ header .content-wrapper {
 }
 
 nav {
-  display: flex;
-
+  margin: 0;
+  padding: 0;
 }
 
 nav ul {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
-nav li {
+nav ul li {
   display: inline-block;
   font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-nav a {
+nav ul li a {
   color: #eeefda;
 }
 
@@ -346,17 +351,23 @@ footer .social-icons li i {
 
 
 /* ------------------- Mobile Styles ------------------ */
+header .content-wrapper {
+  width: 90%;
+}
 
 nav {
   font-size: 1em;
   font-weight: 800;
+  display: inline-block;
 }
 
 nav li {
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
+
 
 /* Portfolio */
 
@@ -765,7 +776,8 @@ footer .social-icons li {
   }
 
   footer .social-icons {
-    width: 12.5em;
+    width: 10em;
+    font-size: 1em;
   }
 
 }
