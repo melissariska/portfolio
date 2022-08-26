@@ -257,17 +257,16 @@ header .content-wrapper {
 nav {
   margin: 0;
   padding: 0;
+  width: 90%;
 }
 
 nav ul {
   text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav ul li {
-  display: inline-block;
   font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
@@ -358,16 +357,7 @@ header .content-wrapper {
 nav {
   font-size: 1em;
   font-weight: 800;
-  display: inline-block;
 }
-
-nav li {
-  justify-content: space-around;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-}
-
 
 /* Portfolio */
 
