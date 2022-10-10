@@ -96,7 +96,7 @@ body {
   font-family: 'Lekton', sans-serif;
   font-size: 1em;
   text-align: left;
-  color: #152a3e;
+  color: #fff7e6;
   width: 100%;
 }
 
@@ -107,7 +107,7 @@ ul {
 }
 
 a {
-  color: #152A3E;
+  color: #fff7e6;
   text-decoration: none;
 }
 
@@ -170,10 +170,6 @@ figure {
   margin: 0;
 }
 
-.about {
-  background: #eeefda;
-}
-
 .about img {
   margin: 20px 40px;
   justify-content: space-around;
@@ -191,7 +187,7 @@ footer {
 }
 
 #work, #about {
-  background-color: #cac691;
+  background-color: #006080;
 }
 
 #work p,
@@ -231,9 +227,9 @@ footer {
 
 header {
   padding: 30px 0 60px 0;
-  background: #152A3E;
-  color: #eeefda;
-  width: 100%;
+  background-image: url(../img/header-background.jpeg);
+  color: #00264d;
+  width: auto;
 }
 
 header h2 {
@@ -273,22 +269,22 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #eeefda;
+  color: #003366;
 }
 
 nav a:hover {
-  color: #cac691;
+  color: #006080;
 }
 
 nav span {
-  background-color: #cac691;
-  color: #152A3E;
+  background-color: #00264d;
+  color: #fff7e6;
   padding: 8px 5px;
   border-radius: 40px;
 }
 
 nav span:hover {
-  background-color: #e7e5cb;
+  background-color: #006080;
 }
 
 /* Footer styles */
@@ -299,8 +295,8 @@ footer {
   text-align: center;
   flex-flow: row wrap;
   font-size: 1.25em;
-  background-color: #152A3E;
-  color: #eeefda;
+  background-color: #fff7e6;
+  color: #00264d;
   width: 100%;
 }
 
@@ -331,7 +327,7 @@ footer .social-icons {
 }
 
 footer .social-icons li i {
-  color: #cac691;
+  color: #00264d;
   margin: 0;
   padding: 0;
 }
@@ -382,12 +378,12 @@ nav {
   padding: 0.75rem 3.75rem;
   border-radius: 30px;
   color: #fff;
-  background-color: #152A3e;
+  background-color: #00264d;
 }
 
 .project-link:hover {
-  background-color: #b4c7d9;
-  color: #152A3E;
+  background-color: #fff7e6;
+  color: #00264d;
 }
 
 .project-piece {
@@ -409,11 +405,13 @@ nav {
 }
 
 #skills {
-  background-color: #eeefda;
+  background-color: #fff7e6;
+  color: #00264d;
 }
 
 #skills h2 {
   font-weight: bold;
+  color: #00264d;
 }
 
 #skills .content-wrapper {
@@ -422,9 +420,10 @@ nav {
 
 .language-wrapper p,
 .tools-wrapper p {
-  background-color: #cac691;
+  background-color: #00264d;
   padding: 15px 0;
   margin: 20px 0;
+  color: #fff7e6;
 }
 
 .tool {
@@ -579,7 +578,7 @@ footer .social-icons li {
   }
 
   footer .social-icons li:hover i {
-    color: #e7e5cb;
+    color: #00264d;
   }
 
   #work p,
@@ -619,7 +618,7 @@ footer .social-icons li {
   }
 
   .project-link {
-    background-color: #152A3E;
+    background-color: #00264d;
     padding: 0.75rem 3.75rem;
     border-radius: 30px;
     color: #FFFFFF;
